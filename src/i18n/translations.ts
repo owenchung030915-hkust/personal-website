@@ -124,6 +124,15 @@ export const messages: Record<Locale, Messages> = {
       heading: "Work experience",
       items: [
         {
+          org: "Fruitful",
+          title: "Cofounder and COO",
+          period: "Apr 2025 – Present",
+          lines: [
+            "Facilitated 110k+ seed funding for a vegan leather startup, and organized workshops for 60+ participants that generated revenue.",
+            "Seeking factory partnerships to streamline production of vegan leather products and reduce cost.",
+          ],
+        },
+        {
           org: "Sun Hung Kai Properties",
           title: "Summer Intern, Non-Property Investment Portfolio Division",
           period: "Jul 2025 – Sep 2025",
@@ -215,6 +224,15 @@ export const messages: Record<Locale, Messages> = {
       heading: "Research",
       items: [
         {
+          org: "KTH Royal Institute of Technology",
+          title: "Research Assistant",
+          period: "Jun 2026 – Aug 2026",
+          lines: [
+            "Conducted research on smart-contract verification using LLMs under the supervision of Prof. Martin Monperrus and his research team.",
+            "Identified 5+ security issues in existing blockchain implementations and communicated findings to developers for follow-up.",
+          ],
+        },
+        {
           title: "FinThink — LLM-based multi-agent financial reasoning (UROP)",
           lines: [
             "Multi-agent architecture for financial reasoning: cognitive chains, reusable memory, coordination, and market-aware analysis.",
@@ -269,7 +287,7 @@ export const messages: Record<Locale, Messages> = {
       brand: "鍾灝文",
       about: "簡介",
       education: "學歷",
-      experience: "實習",
+      experience: "經歷",
       projects: "項目",
       research: "研究",
       skills: "技能",
@@ -315,8 +333,17 @@ export const messages: Record<Locale, Messages> = {
       ],
     },
     experience: {
-      heading: "實習經歷",
+      heading: "工作經歷",
       items: [
+        {
+          org: "Fruitful",
+          title: "聯合創辦人兼營運總監",
+          period: "2025.4 – 至今",
+          lines: [
+            "為素皮初創促成逾 11 萬美元種子輪融資，並舉辦面向 60 餘名參與者的工作坊，實現營收。",
+            "正尋求與工廠合作，以優化素皮產品生產並降低成本。",
+          ],
+        },
         {
           org: "新鴻基地產",
           title: "非物業投資組合業務部暑期實習生",
@@ -408,6 +435,15 @@ export const messages: Record<Locale, Messages> = {
     research: {
       heading: "研究經歷",
       items: [
+        {
+          org: "瑞典皇家理工學院（KTH）",
+          title: "研究助理",
+          period: "2026.6 – 2026.8",
+          lines: [
+            "在 Martin Monperrus 教授及其研究團隊指導下，研究以大語言模型驗證智能合約。",
+            "在現有區塊鏈實現中識別 5 項以上安全問題，並向開發者溝通發現以便跟進。",
+          ],
+        },
         {
           title: "FinThink — 基於大語言模型的金融推理多智能體系統（UROP）",
           lines: [
